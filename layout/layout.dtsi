@@ -1,0 +1,40 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout_jacked_rufous: physical_layout_jacked_rufous {
+        compatible = "zmk,physical-layout";
+        display-name = "Jacked Rufous";
+        keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100    0   75       0     0    75>
+            , <&key_physical_attrs 100 100  100   25       0   100    25>
+            , <&key_physical_attrs 100 100  200    0       0   200     0>
+            , <&key_physical_attrs 100 100  300   25       0   300    25>
+            , <&key_physical_attrs 100 100  400   75       0   400    75>
+            , <&key_physical_attrs 100 100  600   75       0   600    75>
+            , <&key_physical_attrs 100 100  700   25       0   700    25>
+            , <&key_physical_attrs 100 100  800    0       0   800     0>
+            , <&key_physical_attrs 100 100  900   25       0   900    25>
+            , <&key_physical_attrs 100 100 1000   75       0  1000    75>
+            , <&key_physical_attrs 100 100    0  175       0     0   175>
+            , <&key_physical_attrs 100 100  100  125       0   100   125>
+            , <&key_physical_attrs 100 100  200  100       0   200   100>
+            , <&key_physical_attrs 100 100  300  125       0   300   125>
+            , <&key_physical_attrs 100 100  400  175       0   400   175>
+            , <&key_physical_attrs 100 100  600  175       0   600   175>
+            , <&key_physical_attrs 100 100  700  125       0   700   125>
+            , <&key_physical_attrs 100 100  800  100       0   800   100>
+            , <&key_physical_attrs 100 100  900  125       0   900   125>
+            , <&key_physical_attrs 100 100 1000  175       0  1000   175>
+            , <&key_physical_attrs 100 100  100  225       0   100   225>
+            , <&key_physical_attrs 100 100  200  200       0   200   200>
+            , <&key_physical_attrs 100 100  300  225       0   300   225>
+            , <&key_physical_attrs 100 100  325  350       0   325   350>
+            , <&key_physical_attrs 100 100  425  375       0   425   375>
+            , <&key_physical_attrs 100 100  575  375       0   575   375>
+            , <&key_physical_attrs 100 100  675  350       0   675   350>
+            , <&key_physical_attrs 100 100  700  225       0   700   225>
+            , <&key_physical_attrs 100 100  800  200       0   800   200>
+            , <&key_physical_attrs 100 100  900  225       0   900   225>
+            ;
+    };
+};
