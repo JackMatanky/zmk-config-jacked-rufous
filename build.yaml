@@ -1,4 +1,4 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: hummingbird nice_oled
+    shield: jacked_rufous nice_oled
